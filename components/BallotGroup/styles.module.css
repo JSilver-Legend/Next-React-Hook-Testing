@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.title {
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+  background-color: gray;
+}
+
+.cardGroup {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 1280px) {
+  .cardGroup {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .cardGroup {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

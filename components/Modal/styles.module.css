@@ -1,0 +1,44 @@
+.backDrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000090;
+}
+
+.wrapper {
+  position: fixed;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height: 400px;
+  top: calc(50vh - 200px);
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  font-size: x-large;
+  font-weight: 600;
+  color: black;
+  text-align: right;
+  cursor: pointer;
+}

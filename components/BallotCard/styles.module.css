@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px #009B86 solid;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: transparent;
+}
+
+.wrapperSelected {
+  background-color: #009B86 !important;
+}
+
+.wrapper:hover {
+  /* background-color: #009B86;
+  color: #CCCCCC; */
+}
+
+.title {
+  font-size: 18px;
+}
+
+.imageWrapper {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.buttonSelected {
+  background-color: #34AC9C !important;
+}
